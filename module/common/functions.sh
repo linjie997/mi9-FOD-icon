@@ -15,9 +15,13 @@ abort() {
 cleanup() {
   rm -rf $MODPATH/common 2>/dev/null
   ui_print " "
-  ui_print "    **************************************"
-  ui_print "    *   MMT Extended by Zackptg5 @ XDA   *"
-  ui_print "    **************************************"
+  ui_print "    **********************************************"
+  ui_print "    *  Mi 9 FOD icon for AOSP ROMs by Potato997   *"
+  ui_print "    **********************************************"
+  ui_print " "
+  ui_print "    **********************************************"
+  ui_print "    *  Based on MMT Extended by Zackptg5 @ XDA   *"
+  ui_print "    **********************************************"
   ui_print " "
   $DEBUG && debug_log
 }
