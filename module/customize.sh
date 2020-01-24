@@ -34,7 +34,6 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
-/system/vendor/overlay
 "
 
 ##########################################################################################
@@ -58,6 +57,7 @@ set_permissions() {
   
   # set_perm $MODPATH/system/lib/libart.so 0 0 0644
   # set_perm /data/local/tmp/file.txt 0 0 644
+  set_perm $MODPATH/system/vendor/overlay/SystemUI__auto_generated_rro_vendor.apk 0 0 0644
 }
 
 ##########################################################################################
