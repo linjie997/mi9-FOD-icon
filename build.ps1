@@ -7,4 +7,5 @@ $length = $versionString.Length - 1;
 $version = ($versionString.Split('v'))[2]
 $Time = Get-Date -Format "MM-dd-yyyy_HHmmss"
 
-Compress-Archive ./module/* ./dist/Mi9FODIconPotato997-v$($version)_$($Time).zip
+#Compress-Archive -Path ./module/* -DestinationPath ./dist/Mi9FODIconPotato997-v$($version)_$($Time).zip
+7z a -tzip ./dist/Mi9FODIconPotato997-v$($version)_$($Time).zip ./module/*
